@@ -1,0 +1,8 @@
+# HwBinder IPC from client to server
+binder_call(hal_p404_fod_client, hal_p404_fod_server)
+
+add_hwservice(hal_p404_fod_server, hal_p404_fod_hwservice)
+allow hal_p404_fod_client hal_p404_fod_hwservice:hwservice_manager find;
+
+# Allow binder communication with platform_app
+binder_call(hal_p404_fod, platform_app)
