@@ -6,3 +6,8 @@
 
 # HALs
 /(product|system/product)/vendor_overlay/[0-9]+/bin/hw/android\.hardware\.power@1\.2-service    u:object_r:hal_power_default_exec:s0
+
+# Postinstall
+/system/bin/backuptool_ab\.functions              u:object_r:otapreopt_chroot_exec:s0
+/system/bin/backuptool_ab\.sh                     u:object_r:otapreopt_chroot_exec:s0
+/system/bin/backuptool_postinstall\.sh            u:object_r:otapreopt_chroot_exec:s0
