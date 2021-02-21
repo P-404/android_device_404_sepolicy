@@ -3,4 +3,4 @@ lineageperformance                        u:object_r:lineage_performance_service
 profile                                   u:object_r:lineage_profile_service:s0
 
 dc_dim_service		                  u:object_r:dc_dimming_service:s0
-
+applock                                   u:object_r:applock_service:s0
