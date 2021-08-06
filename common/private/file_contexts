@@ -9,3 +9,5 @@
 # OTA
 /data/p404_updates(/.*)?           u:object_r:ota_package_file:s0
 
+# restricted-networking-mode
+/dev/socket/netdl          u:object_r:fwmarkd_socket:s0
