@@ -1,4 +1,2 @@
-type sysfs_io_sched_tuneable, fs_type, sysfs_type;
-
 # DC Dimming
 type sysfs_dc_dim, fs_type, sysfs_type;
